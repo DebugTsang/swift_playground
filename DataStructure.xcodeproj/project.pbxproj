@@ -18,6 +18,8 @@
 		FA52A1291D31487400A041BE /* QuickSortHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52A1261D3145D200A041BE /* QuickSortHelperTests.swift */; };
 		FA52A12B1D31490B00A041BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52A0FE1D30E42800A041BE /* ViewController.swift */; };
 		FA52A12C1D31491200A041BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52A0FC1D30E42800A041BE /* AppDelegate.swift */; };
+		FA52A12E1D3150ED00A041BE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52A12D1D3150ED00A041BE /* LinkedList.swift */; };
+		FA52A12F1D3150ED00A041BE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52A12D1D3150ED00A041BE /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,7 @@
 		FA52A1131D30E42800A041BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA52A1211D31045100A041BE /* QuickSortHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSortHelper.swift; sourceTree = "<group>"; };
 		FA52A1261D3145D200A041BE /* QuickSortHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSortHelperTests.swift; sourceTree = "<group>"; };
+		FA52A12D1D3150ED00A041BE /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 				FA52A0FC1D30E42800A041BE /* AppDelegate.swift */,
 				FA52A0FE1D30E42800A041BE /* ViewController.swift */,
 				FA52A1211D31045100A041BE /* QuickSortHelper.swift */,
+				FA52A12D1D3150ED00A041BE /* LinkedList.swift */,
 				FA52A1001D30E42800A041BE /* Main.storyboard */,
 				FA52A1031D30E42800A041BE /* Assets.xcassets */,
 				FA52A1051D30E42800A041BE /* LaunchScreen.storyboard */,
@@ -208,6 +212,7 @@
 			files = (
 				FA52A0FF1D30E42800A041BE /* ViewController.swift in Sources */,
 				FA52A1221D31045100A041BE /* QuickSortHelper.swift in Sources */,
+				FA52A12E1D3150ED00A041BE /* LinkedList.swift in Sources */,
 				FA52A0FD1D30E42800A041BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA52A12F1D3150ED00A041BE /* LinkedList.swift in Sources */,
 				FA52A12C1D31491200A041BE /* AppDelegate.swift in Sources */,
 				FA52A12B1D31490B00A041BE /* ViewController.swift in Sources */,
 				FA52A1291D31487400A041BE /* QuickSortHelperTests.swift in Sources */,
