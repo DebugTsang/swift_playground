@@ -15,7 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let n0: Node = Node.init(key: 5);
+//        let n1: Node = Node.init(key: 8);
+        let ll: LinkedList = LinkedList.init(node: n0);
+        for _ in 0...100{
+            let randomNumber: Int = Int(arc4random_uniform(100) + 1)
+            let n: Node = Node.init(key: randomNumber);
+            ll.addNode(n);
+        }
+
+        ll.printList();
+        
         return true
     }
 

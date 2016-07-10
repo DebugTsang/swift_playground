@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         
         let a : Array<Int> = [3, 1, 2, 5, 4, 6, 9, 7, 10, 8];
-        helper = QuickSortHelper(nums: a);
+        self.helper = QuickSortHelper(nums: a);
     }
 
     override func didReceiveMemoryWarning() {
@@ -48,7 +48,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     @IBAction func sortButtonDidClick(sender: UIButton) {
-        helper.quickSort(0, right: self.nums.count-1);
+        self.helper.quickSort(0, right: self.nums.count-1);
+        self.nums = helper.getNumbers();
         self.myTableView.reloadData();
     }
     
